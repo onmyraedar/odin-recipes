@@ -1,6 +1,16 @@
-h1,
-h3,
-p,
-li {
+h1, p, li {
   font-family: "Rubik", sans-serif;
+}
+
+h1, p {
+  text-align: center;
+}
+
+p, li {
+  font-size: 20px;
+}
+
+img {
+  height: auto;
+  width: 30px;
 }
