@@ -1,4 +1,4 @@
-h1, p, li {
+h1, p, a {
   font-family: "Rubik", sans-serif;
 }
 
@@ -6,11 +6,27 @@ h1, p {
   text-align: center;
 }
 
-p, li {
+p {
   font-size: 20px;
+}
+
+a {
+  color: black;
+
 }
 
 img {
   height: auto;
-  width: 30px;
+  width: 150px;
+  margin: 0px auto; /* top and bottom | left and right */
+  display: block;
+}
+
+.recipe {
+  background-color: lavender;
+  border-radius: 20px;
+  margin: 25px auto;
+  text-align: center;
+  width: 300px;
+  box-sizing: border-box;
 }
