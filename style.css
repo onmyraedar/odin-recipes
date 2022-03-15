@@ -18,13 +18,12 @@ div p {
 a {
   font-family: "DM Sans", sans-serif;
   font-size: 25px;
-  text-decoration: none; /* Removes underlines from links */
   color: black;
 }
 
 a:hover {
   font-weight: 700;
-  color: black;
+  color: purple;
 }
 
 img {
