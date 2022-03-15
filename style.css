@@ -3,28 +3,28 @@ h1, p {
 }
 
 h1 {
-  font-family: "Rubik", sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
 p {
-  font-family: "Rubik", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 25px;
 }
 
 div p {
-  font-size: 18px;
+  font-size: 25px;
 }
 
 a {
-  font-family: "Rubik", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 25px;
   text-decoration: none; /* Removes underlines from links */
   color: black;
 }
 
 a:hover {
-  font-weight: bold;
-  color: purple;
+  font-weight: 700;
+  color: black;
 }
 
 img {
@@ -35,16 +35,16 @@ img {
 }
 
 .recipes-container {
-  margin: 10px auto;
+  margin: 10px 25px;
   display: flex; /* Makes this a flex container */
 }
 
 .recipe {
-  background-color: lavender;
+  background-color: #f1f1ff;
   border-radius: 20px;
   text-align: center;
   width: 300px;
-  margin: 25px 10px;
+  margin: 25px 25px;
   padding: 20px;
   flex: 1 1 auto; /* Makes this a flex item */
 }
